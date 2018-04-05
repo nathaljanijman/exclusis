@@ -1,20 +1,33 @@
-/*
-
-Template 2097 Pop
-
-http://www.tooplate.com/view/2097-pop
-
-*/
-
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 	font-size: 19px;
 	font-weight: 300;
     color:white;        
     position: relative;
 }
 
-h1 { font-size: 2.8rem; }
+h1 { 
+    font-size: 80px;
+     }
+
+hr { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+    
+  } 
+    hr:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
 
 #tm-bg {
     position: fixed;
@@ -71,7 +84,7 @@ p {
 
 .tm-site-header {
     margin: 10px;
-    text-align: right;
+    text-align: center;
     width: 100%;
 }
 
@@ -294,7 +307,8 @@ footer {
 }
 
 .tm-text-highlight { color: white; }
-.tm-text-highlight:hover { color: red; }
+.tm-text-highlight:hover { color: blue;
+font-size: 150%; }
 .tm-main-content.tm-footer-relative { flex-direction: column; } 
 .tm-main-content.tm-footer-relative footer {
     position: relative;
@@ -363,4 +377,6 @@ p:last-child { margin-bottom: 0; }
 
     .fa-3x { font-size: 2.2em; }
 }
+
+
 
